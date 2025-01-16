@@ -1,0 +1,120 @@
+/* Container styling */
+#container {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #936e79;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+/* Title styling */
+#container span {
+    font-size: 26px;
+    font-weight: bold;
+    color: #955f70;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Profile info styling */
+.profile-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.profile-info p strong {
+    color: #955f70;
+    display: inline-block;
+    width: 150px;
+}
+
+/* Edit button styling */
+#edit-profile-btn {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #955f70;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#edit-profile-btn:hover {
+    background-color: #936e79;
+}
+
+/* Form styling */
+form {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+textarea,
+select {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+textarea {
+    height: 100px;
+}
+
+select {
+    height: auto;
+}
+
+button[type="submit"] {
+    background-color: #955f70;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #936e79;
+}
+
+div > a {
+    color: #955f70;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div > a:hover {
+    text-decoration: underline;
+}
